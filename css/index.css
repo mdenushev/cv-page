@@ -48,7 +48,6 @@ li {
     width: 100%;
     text-align: center; 
     position: relative;
-    background-color: #DFE0E1;
     bottom: 0;
 }
 .contact-btn:focus{
@@ -66,7 +65,7 @@ li {
         margin-right: 25%;
     }
     .footer{
-        position: absolute
+        position: relative;
     }
 }
 @media(max-width: 991px){
