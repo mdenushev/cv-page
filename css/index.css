@@ -50,7 +50,7 @@ li {
     position: relative;
     bottom: 0;
 }
-.contact-btn:focus{
+.contact-btn:hover{
     color: #ffffff;
     background-color: #007bff;
     box-shadow: 0 0 0 5px rgba(0, 123, 255, 0.5);
