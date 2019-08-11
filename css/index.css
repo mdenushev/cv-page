@@ -6,6 +6,7 @@
 body{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     color: #212529;
+    margin: 0;
 }
 .main{
     padding: 10px;
@@ -17,11 +18,55 @@ a{
     color: #007bff;
     text-decoration: none;
 }
+button-block{
+    width: 100%;
+}
+li {
+    margin-bottom: 15px;
+}
+.mb-15{
+    margin-bottom: 15px; 
+}
+.contact-btn{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    border-radius: 15px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    background-color: transparent;
+    font-size: 1.25rem;
+    padding: 15px;
+    margin: auto;
+    outline: none;
+}
+.footer{
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center; 
+    position: relative;
+    background-color: #DFE0E1;
+    bottom: 0;
+}
+.contact-btn:focus{
+    color: #ffffff;
+    background-color: #007bff;
+    box-shadow: 0 0 0 5px rgba(0, 123, 255, 0.5);
+    transition-duration: 0.5s;
+    border-radius: 15px;
+    border: 1px solid #007bff;
+}
 @media(min-width: 992px){
     .main{
         margin-top:50px;
         margin-left: 25%;
         margin-right: 25%;
+    }
+    .footer{
+        position: absolute
     }
 }
 @media(max-width: 991px){
@@ -33,6 +78,10 @@ a{
     }
     .avatar{
         width: 200px;
+    }
+    .contact-btn{
+        width: 100%;
+        text-align: center;
     }
     .profile-header{
         /* display: flex;
